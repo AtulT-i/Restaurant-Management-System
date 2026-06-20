@@ -115,12 +115,12 @@ When your program closes, RAM is cleared. We use File I/O to save data permanent
 #include <fstream>
 using namespace std;
 
-// ✍️ WRITING a new user to the database
+//  WRITING a new user to the database
 ofstream outFile("input_docs/users.txt");
 outFile << "9999999999" << "|" << "John Doe" << "\n";
 outFile.close(); // Always close files when done!
 
-// 📖 READING from the database
+//  READING from the database
 ifstream inFile("input_docs/users.txt");
 string line;
 while (getline(inFile, line)) {
