@@ -136,10 +136,10 @@ RestaurantSystem& RestaurantSystem::getInstance() {
 }
 
 void RestaurantSystem::loadData() {
-    menuManager.loadMenu("menu.txt");
+    menuManager.loadMenu("input_docs/menu.txt");
 
     // Load Users
-    ifstream userFile("users.txt");
+    ifstream userFile("input_docs/users.txt");
     string line;
     while (getline(userFile, line)) {
         vector<string> data = split(line, '|');
@@ -150,7 +150,7 @@ void RestaurantSystem::loadData() {
     userFile.close();
 
     // Load Waiters
-    ifstream waiterFile("waiters.txt");
+    ifstream waiterFile("input_docs/waiters.txt");
     while (getline(waiterFile, line)) {
         vector<string> data = split(line, '|');
         if (data.size() == 2) {
@@ -160,7 +160,7 @@ void RestaurantSystem::loadData() {
     waiterFile.close();
 
     // Load Orders
-    ifstream orderFile("orders.txt");
+    ifstream orderFile("input_docs/orders.txt");
     while (getline(orderFile, line)) {
         vector<string> data = split(line, '|');
         if (data.size() >= 4) {
@@ -221,21 +221,21 @@ void RestaurantSystem::loadData() {
 
 void RestaurantSystem::saveData() {
     // Save Users
-    ofstream userFile("users.txt");
+    ofstream userFile("input_docs/users.txt");
     for (const auto& pair : users) {
         userFile << pair.second.mobileNumber << "|" << pair.second.name << "\n";
     }
     userFile.close();
 
     // Save Waiters
-    ofstream waiterFile("waiters.txt");
+    ofstream waiterFile("input_docs/waiters.txt");
     for (const auto& pair : waiters) {
         waiterFile << pair.second.id << "|" << pair.second.name << "\n";
     }
     waiterFile.close();
 
     // Save Orders
-    ofstream orderFile("orders.txt");
+    ofstream orderFile("input_docs/orders.txt");
     for (const auto& pair : users) {
         for (const auto& order : pair.second.orderHistory) {
             for (const auto& item : order.items) {
