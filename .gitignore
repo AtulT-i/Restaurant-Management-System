@@ -1,0 +1,7 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+
+# Optional: IDE folders
+.vscode/

@@ -1,0 +1,15 @@
+1|8542904603|0|Butter Naan|50
+1|8542904603|0|Spring Rolls|150
+1|8542904603|0|Fresh Lime Soda|90
+2|8542904603|0|Spring Rolls|150
+2|8542904603|0|Tomato Soup|120
+2|8542904603|0|Chicken Tikka|250
+5|8542904603|0|Ice Cream|100
+3|9876|101|Spring Rolls|150
+3|9876|101|Dal Makhani|220
+3|9876|101|Fresh Lime Soda|90
+4|9876|101|Paneer Butter Masala|300
+4|9876|101|Spring Rolls|150
+4|9876|101|Ice Cream|100
+4|9876|101|Gulab Jamun|80
+4|9876|101|Ice Cream|100

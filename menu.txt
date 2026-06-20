@@ -1,0 +1,12 @@
+Starters|Spring Rolls|150.00
+Starters|Tomato Soup|120.00
+Starters|Chicken Tikka|250.00
+Main Course|Paneer Butter Masala|300.00
+Main Course|Chicken Curry|350.00
+Main Course|Dal Makhani|220.00
+Breads|Butter Naan|50.00
+Breads|Roti|20.00
+Desserts|Ice Cream|100.00
+Desserts|Gulab Jamun|80.00
+Beverages|Cold Coffee|150.00
+Beverages|Fresh Lime Soda|90.00
