@@ -1,6 +1,6 @@
 # Restaurant Management System - Low Level Design (LLD)
 
-Welcome! If you are a first-year B.Tech student exploring how real-world C++ projects are designed, this document is for you. We will break down exactly how our Restaurant Management system is built behind the scenes.
+Welcome! Even If you are a first-year B.Tech student exploring how real-world C++ projects are designed, this document is for you. We will break down exactly how our Restaurant Management system is built behind the scenes.
 
 ## 1. Class Structure (UML Diagram)
 
